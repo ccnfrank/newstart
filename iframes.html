@@ -6,41 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <style>
+
+        body {
+
+            background-color: rgb(47, 58, 74);
+            color: aliceblue;
+            font-size: 12px;
+        }
+
+
+        .main {
+
+            width: 600px;
+            margin-left: 20px;
+            margin-top: 50px;
+
+            
+        }
+
+        .main2 {
+
+            width: 500px;
+            height: 500px;
+            border-top-right-radius: 120px;
+            border-bottom-left-radius: 50px;
+            
+            margin-left: 20px;
+            padding-top: ;
+        }
+
+        
+    </style>
+
   
 </head>
 
 
 <body>
       
-   <fieldset>
+   <fieldset class="main">
         <legend>Dados Pessoais</legend>
-        
-        <form actlion="cadastro.php" method="get">
-            <p> <label for="nome">Nome:</label> <input type="text" name="nome" id="nome" required> </p>
-            <p> <label for="sobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="sobrenome"></p>
+             <form actlion="">
+                <p>
+                    <label for="inome">Nome: </label>
+                    <input type="text" name="nome" id="inome">
+                
+                </p>
 
-            <p>
-                <label for="iloc">Local:</label>
-                <input type="text" name="loc" id="iloc" required >
-            
-            </p>
+                <p>
+                 <label for="ilast">Sobrenome: </label>
+                 <input type="text" name="last" id="ilast">
+                </p>
 
-         
-            <input type="datetime-local" name="ll" id="ill">
          
    </fieldset>
 
-   <br>
-    
-     <input type="submit" value="enviar!">
-     
- 
-        
-    
+   <br><br><br>
+
        
+   <fieldset class="main2">
+    <legend>Geral</legend>
+         <form actlion="">
+            <p>
+                <label for="add">Enderereco: </label>
+                <input type="text" name="nome" id="add">
+            
+            </p>
 
+        
 
+            <p>
+             <label for="icid"> Cidade: </label>
+             <input type="text" name="last" id="icid">
+            </p>
 
+     
+</fieldset>
+
+     
  </form>
 
 
