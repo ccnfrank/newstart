@@ -16,25 +16,26 @@
         }
 
 
-        .main {
+        .pess {
 
             width: 600px;
-            margin-left: 20px;
+            margin-left: 220px;
             margin-top: 50px;
-
-            
+ 
         }
 
-        .main2 {
-
-            width: 500px;
-            height: 300px;
-            border-top-right-radius: 120px;
-            border-bottom-left-radius: 50px;
-            
-            margin-left: 20px;
-            padding-top: ;
+        .trab {
+            width: 600px;
+            margin-left: 220px;
+            margin-top: 20px;
         }
+
+        .btn {
+            margin-left: 220px ;
+            margin-top: 15px;
+        }
+
+       
 
         
     </style>
@@ -44,10 +45,10 @@
 
 
 <body>
-      
-   <fieldset class="main">
+    <form actlion="">
+        <fieldset class="pess">
         <legend>Dados Pessoais</legend>
-             <form actlion="">
+           
                 <p>
                     <label for="inome">Nome: </label>
                     <input type="text" name="nome" id="inome">
@@ -62,29 +63,28 @@
          
    </fieldset>
 
-   <br><br><br>
 
-       
-   <fieldset class="main2">
-    <legend>Geral</legend>
-         <form actlion="">
-            <p>
-                <label for="add">Enderereco: </label>
-                <input type="text" name="nome" id="add">
-            
-            </p>
+
+   <fieldset class="trab">
+        <legend>Dados Cadastrais </legend>
+        <p> Rg. <input type="number" name="rg" id="irg"></p>
+        <p> cpf. <input type="number" name="cpf" id="icpf">    Titulo Eleitoral <input type="number" name="tit" id="itit"></p> 
+
+        <p>Orgao Expeditor <input type="text" name="org"  id="iorg">  Data Expedicao <input type="date" name="data" id="idata"></p>
 
         
 
-            <p>
-             <label for="icid"> Cidade: </label>
-             <input type="text" name="last" id="icid">
-            </p>
 
-     
-</fieldset>
 
-     
+
+
+
+   </fieldset>
+
+   <input class="btn" type="submit" value="Enviar">
+
+  
+
  </form>
 
 
