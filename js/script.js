@@ -1,6 +1,6 @@
 
+var manda = document.getElementById("ini");
+console.log(manda);
 
-var teste = document.getElementById("ini");
 
-console.log(teste);
-
+manda.textContent = 'novo text';
