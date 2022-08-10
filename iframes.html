@@ -19,22 +19,39 @@
         .pess {
 
             width: 600px;
-            margin-left: 220px;
+            margin-left:50px;
+            margin-right: 50PX;
             margin-top: 50px;
  
         }
 
         .trab {
             width: 600px;
-            margin-left: 220px;
+            margin-left: 50px;
+            margin-right: 50px;
             margin-top: 20px;
         }
 
         .btn {
-            margin-left: 220px ;
+            margin-left: 50px;
             margin-top: 15px;
         }
 
+        .camps {
+            color: rgb(2, 13, 22);
+        }
+
+        .colap {
+
+            width: 300px;
+            height: 800px;
+            margin-left: 400px;
+
+        }
+
+        
+
+       
        
 
         
@@ -46,43 +63,45 @@
 
 <body>
     <form actlion="">
-        <fieldset class="pess">
-        <legend>Dados Pessoais</legend>
-           
-                <p>
-                    <label for="inome">Nome: </label>
-                    <input type="text" name="nome" id="inome">
-                
-                </p>
+    <fieldset class="colap">
+            <fieldset class="pess">
+            <legend>Dados Pessoais</legend>
+               
+                    <p>
+                        <label for="inome">Nome: </label>
+                        <input type="text" name="nome" id="inome">
+                    
+                    </p>
+    
+                    <p>
+                     <label for="ilast">Sobrenome: </label>
+                     <input type="text" name="last" id="ilast">
+                    </p>
+    
+             
+       </fieldset>
+    
+    
+    
+       <fieldset class="trab">
+            <legend>Dados Cadastrais </legend>
+            <p > Rg. <input type="text" name="rg" id="irg" placeholder ="ex:13.093.892-22"></p>
+            <p> cpf. <input type="text" name="cpf" id="icpf" placeholder ="ex:268.099.065.12">    Titulo Eleitoral <input type="text name="tit" id="itit"></p> 
+    
+            <p>Orgao Expeditor <input type="text" name="org"  id="iorg">  Data Expedicao <input type="date" name="data" id="idata"></p>
+    
+            
+    
+    
+    
+    
+    
+    
+       </fieldset>
+    
+       <input class="btn" type="submit" value="Enviar">
 
-                <p>
-                 <label for="ilast">Sobrenome: </label>
-                 <input type="text" name="last" id="ilast">
-                </p>
-
-         
-   </fieldset>
-
-
-
-   <fieldset class="trab">
-        <legend>Dados Cadastrais </legend>
-        <p> Rg. <input type="number" name="rg" id="irg"></p>
-        <p> cpf. <input type="number" name="cpf" id="icpf">    Titulo Eleitoral <input type="number" name="tit" id="itit"></p> 
-
-        <p>Orgao Expeditor <input type="text" name="org"  id="iorg">  Data Expedicao <input type="date" name="data" id="idata"></p>
-
-        
-
-
-
-
-
-
-   </fieldset>
-
-   <input class="btn" type="submit" value="Enviar">
-
+    </fieldset>  
   
 
  </form>
